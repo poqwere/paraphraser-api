@@ -1,1 +1,1 @@
-web: python paraphraser_api.py
+web: gunicorn paraphraser_api:app
