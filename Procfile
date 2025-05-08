@@ -1,1 +1,1 @@
-web: gunicorn paraphraser_api:app
+web: gunicorn -b 0.0.0.0:$PORT paraphraser_api:app
